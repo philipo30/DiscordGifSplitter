@@ -47,6 +47,9 @@ To be sure you have it installed on your system, open a `CMD` window and type `f
 ### Q: Sometimes I see my image being repeated? Is this normal?
 A: Yes, this is due to the grid being outside of the image. Currently the best situation is to crop the image a bit.
 
+### Q: My Frames are being stacked when i use a transparent gifs! How do i fix that?
+A: This is fixed in the Release https://github.com/philipo30/DiscordGifSplitter/releases/tag/v1.2.2 . The problem was caused by FFmpeg.
+
 ### Q: Why do the emojis dont get uploaded as animated emojis in Discord?
 A: This happens due to Discord limiting emoji sizes to 256 KB. To fix this go to https://ezgif.com/optimize and upload the emoji that is too big. Next set the optimization method to lossy Gif and compression level to 5, as it should be enough. If not increase a little until the size is below 256 KB.
 ![compressinggif](DemoFiles/compressinggif.png)
